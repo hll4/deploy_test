@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Первый Сайт</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <h1 class="logo">МойСайт</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2 class="hero-title">Добро пожаловать на мой сайт!</h2>
+                <p class="hero-subtitle">Это простой и красивый сайт, созданный для тестирования деплоя через GitHub</p>
+                <button class="cta-button">Начать</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>О нас</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Простота</h3>
+                        <p>Чистый и понятный дизайн без лишних элементов</p>
+                    </div>
+                    <div class="card">
+                        <h3>Современность</h3>
+                        <p>Использование современных технологий и подходов</p>
+                    </div>
+                    <div class="card">
+                        <h3>Адаптивность</h3>
+                        <p>Сайт отлично выглядит на всех устройствах</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Свяжитесь с нами</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Ваш email" required>
+                    <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                    <button type="submit" class="submit-button">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 МойСайт. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
