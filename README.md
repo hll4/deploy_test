@@ -1,2 +1,1 @@
-# deploy_test qweqwe
-qe
+# deploy_test
